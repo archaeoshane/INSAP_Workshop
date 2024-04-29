@@ -4,6 +4,9 @@ options(scipen=999)
 install.packages("tidyverse")
 library(tidyverse)
 
+install.packages("sf")
+library(sf)
+
 
 data<-read.csv("https://raw.githubusercontent.com/archaeoshane/INSAP_Workshop/main/Bizmoune_Points.csv")
 
